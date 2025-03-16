@@ -1,59 +1,14 @@
 # Worldbook
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
+**Worldbook** is a personal project aimed at providing a comprehensive Dungeons & Dragons (D&D) campaign management tool. It is designed to assist Dungeon Masters (DMs) in organizing and managing various aspects of a D&D campaign, including NPCs, factions, players, quests, and more.
 
-## Development server
+Built using **Angular** and packaged with **Electron**, Worldbook is a cross-platform application that can be run locally on your desktop.
 
-To start a local development server, run:
+## Features
 
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- **NPC Management**: Create, edit, and organize your Non-Player Characters (NPCs) with key details such as names, backgrounds, personality traits, and other custom attributes.
+- **Faction Management**: Manage the factions within your campaign world. Track relationships, goals, members, and faction-related events.
+- **Player Management**: Keep detailed records of your players, their characters, inventory, quests, and other important campaign elements.
+- **Campaign Notes**: Organize your notes for each campaign session, track plot points, and create event timelines to ensure smooth gameplay.
+- **Local Storage**: All data is stored locally, ensuring privacy and full control over your campaign data.
+- **Cross-Platform**: Build using **Electron** for a desktop application, ensuring it runs seamlessly across Windows, macOS, and Linux.
